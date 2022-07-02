@@ -1,0 +1,128 @@
+.container {
+    max-width: 450px;
+    margin: 20vh auto;
+}
+
+#login-header,
+#signup-header {
+    text-align: center;
+    font-weight: 800;
+    font-size: calc(20px + 1vmin);
+}
+
+#signup-header {
+    color: rgb(255, 186, 59);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    opacity: 0.7;
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: calc(10px + 1vmin);
+}
+
+input:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+.email-label {
+    margin-left: -25.2rem;
+}
+
+.password-label {
+    margin-left: -23rem;
+}
+
+.signup-name-label {
+    margin-left: -25.2rem;
+}
+
+.signup-email-label {
+    margin-left: -25.4rem;
+}
+
+.signup-password-label {
+    margin-left: -23.2rem;
+}
+
+input {
+    color: white;
+    opacity: 0.7;
+    border: none;
+    border-radius: 2px;
+    height: 2em;
+    width: 100%;
+    margin: 0rem 0;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    font-size: calc(10px + 1vmin);
+}
+
+#login-button,
+#signup-button {
+    width: 25%;
+    border: none;
+    margin-top: 2rem;
+    padding: 0.5em 1em;
+    font-size: calc(10px + 1vmin);
+    font-weight: 800;
+    border-radius: 2px;
+    background-color: rgb(253, 171, 19);
+    cursor: pointer;
+}
+
+#login-button:hover,
+#signup-button:hover {
+    opacity: 0.9;
+}
+
+#login-button:focus,
+#signup-button:focus {
+    opacity: 0.7;
+}
+
+#gotosignup,
+#backtologin {
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+    padding: 0;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: calc(2px + 2vmin);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: calc(10px + 1vmin);
+}
+
+span {
+    opacity: 0.8;
+}
+
+#gotosignup:hover {
+    border-bottom: 0.5px solid white;
+    opacity: 0.9;
+}
+
+#gotosignup:focus,
+#backtologin:focus {
+    opacity: 0.6;
+}
+
+#backtologin {
+    color: orange;
+    margin-left: -0.05rem;
+    opacity: 0.9;
+}
+
+#backtologin:hover {
+    opacity: 0.8;
+}
